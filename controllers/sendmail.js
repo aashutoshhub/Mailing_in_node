@@ -12,10 +12,9 @@ const sendmail=async (req,res)=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-        //   user: testAccount.user, // generated ethereal user
-        //   pass: testAccount.pass, // generated ethereal password
-        user: 'abigale.goodwin@ethereal.email',
-        pass: 'SShBVa7Re1bXBsR9wm'
+          user: testAccount.user, // generated ethereal user
+          pass: testAccount.pass, // generated ethereal password
+       
         },
       });
 
